@@ -47,9 +47,18 @@ li{
     font-size: small;
 }
 
-.auth-form-container, .login-form, .register-form {
+ .login-form, .register-form {
     display: flex;
     flex-direction: column;
+  }
+
+  .auth-form-container{
+    background-image: url(https://www.shutterstock.com/image-photo/world-philosophy-day-education-concept-260nw-1961785618.jpg);
+    position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
   }
   
   @media screen and (min-width: 600px) {
@@ -111,4 +120,16 @@ label {
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
+  }
+
+  .bg{
+    background-image: url(https://qph.cf2.quoracdn.net/main-qimg-0b7c7de3a92cb4145d73197ac7d8fe49-lq);
+    position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
   }
